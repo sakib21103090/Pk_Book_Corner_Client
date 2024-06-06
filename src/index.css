@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.main-bg{
+  background-color: #FFE8C8;
+}
 /* footer sytle  */
 .Footer-bg{
-  background-color: #5C88C4;
+  background-color: #FFE8C8;
 }
 
 /* Custom CSS for hover effect */
