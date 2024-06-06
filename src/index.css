@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.body-bg{
+background-color:rgb(250, 249, 249);
+}
 .main-bg{
   background-color: #FFE8C8;
+}
+/* bg for best product title */
+.tbg{
+  color: #6B8A7A;
+}
+.title-color{
+  color: #020a79;
 }
 /* footer sytle  */
 .Footer-bg{

@@ -8,7 +8,7 @@ import book5 from '../../../assets/book5.jpg';
 
 const Banner = () => {
     return (
-        <div className="carousel md:h-[650px]  max-w-screen-2xl md:pt-20 md:mx-20">
+        <div className="carousel md:h-[670px]  max-w-screen-2xl">
         <div id="slide1" className="carousel-item relative w-full"> {/* slider one */}
           <img src={book1} className="w-full  rounded-md" />
           <div className="absolute rounded-lg flex items-center transform h-full left-0 top-0 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21)]">
@@ -20,7 +20,7 @@ const Banner = () => {
       
           </div>
           <div className="absolute flex  justify-center  transform -translate-y-1/2 left-5 right-5 bottom-0 ">
-            <a href="#slide5" className="btn btn-circle  bg-green-600 mr-4">❮</a> 
+            <a href="#slide5" className="btn btn-circle bg-green-600 mr-4">❮</a> 
             <a href="#slide2" className="btn btn-circle bg-red-600 ">❯</a>
           </div>
         </div> 
